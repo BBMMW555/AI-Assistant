@@ -1,0 +1,10 @@
+pyttsx3
+langdetect
+PyQt5
+vosk
+pdfplumber
+transformers
+torch
+pystray
+pillow
+python-dotenv

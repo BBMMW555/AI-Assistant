@@ -1,0 +1,21 @@
+{
+    "commands": {
+        "افتح المتصفح": {
+            "action": "open_browser",
+            "program": "chrome.exe"
+        },
+        "احفظ الملف": {
+            "action": "save_file",
+            "program": null
+        },
+        "اغلق المتصفح": {
+            "action": "close_browser",
+            "program": "chrome.exe"
+        }
+    },
+    "solutions": {
+        "open_browser": "TaskManager.open_program('chrome.exe')",
+        "close_browser": "TaskManager.close_program('chrome.exe')",
+        "save_file": "save_file_dialog"
+    }
+}
